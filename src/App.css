@@ -2,9 +2,79 @@
   text-align: center;
 }
 
+.carouselDisplay{
+  height: 600px;
+  width: 900px;
+  align-items: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.nav {
+  background-color: black;
+  height: 80px;
+
+}
+
+.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+.transbox ul {
+  font-weight: bold;
+  color: black;
+}
+
+.carousel_sizing{
+  height: 500px;
+}
+.carousel_title{
+  margin-left: 10px;
+  padding-top: 20px;
+}
+.carousel_bg li{
+  list-style: none;
+}
+.carousel_bg i{
+  font-size: 26px;
+  
+  padding-right: 5px;
+}
+.spaceman-bg{
+  background-image: url(./components/assets/background_spaceman.gif);
+  
+  background-size:cover;
+
+  position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
+.loader{
+  position:fixed;
+  top:0;
+  left:0;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.loader-hiden{
+  opacity: 0;
+  visibility: hidden;
+}
+.loader::after{
+  animation: loading 0.75s ease infinite;
+}
+.list-container{
+  list-style: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
