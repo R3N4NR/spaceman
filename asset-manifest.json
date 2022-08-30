@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/spaceman/static/css/main.d598abcc.css",
-    "main.js": "/spaceman/static/js/main.1bedc8b2.js",
+    "main.js": "/spaceman/static/js/main.c59bcb9f.js",
     "static/media/background_spaceman.gif": "/spaceman/static/media/background_spaceman.84f98974180c93962f4f.gif",
     "index.html": "/spaceman/index.html",
     "main.d598abcc.css.map": "/spaceman/static/css/main.d598abcc.css.map",
-    "main.1bedc8b2.js.map": "/spaceman/static/js/main.1bedc8b2.js.map"
+    "main.c59bcb9f.js.map": "/spaceman/static/js/main.c59bcb9f.js.map"
   },
   "entrypoints": [
     "static/css/main.d598abcc.css",
-    "static/js/main.1bedc8b2.js"
+    "static/js/main.c59bcb9f.js"
   ]
 }
